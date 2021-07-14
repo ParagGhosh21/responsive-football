@@ -48,6 +48,9 @@ body{
 /*----------------
         nav 
 -------------  */
+.response{
+    padding: 30px 80px;
+}
 nav {
     background-color: #562EFF;
     display: flex;
@@ -83,13 +86,13 @@ header styles
 .banner-header img{
     width: 556.01px;
   height: 438px;
-  padding-left: 300px;
+  
   
   
 }
  .banner-header img:hover{
     transition: width 10s, hight 5s, transform 5s;
-     transform: rotate(90deg);
+     transform: rotate(360deg);
 
 }
 .header-button{
@@ -250,6 +253,34 @@ Mobile devices
     .container{
         width: 75%;
     }
+    .header{
+        display: flex;
+        flex-direction: column;
+    padding: 30px;
+    background-color: #562EFF;
+    
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ .highlights{
+    display: flex;
+    flex-direction: column;
+    padding-left: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+    
+    .banner-header img {
+        width: 556.01px;
+     
+    }
      .blogs, .courses , .players{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -257,9 +288,9 @@ Mobile devices
     .player, .blog {
         flex-direction: column;
     }
-    .nav-response , .header,  .highlights{
+    /* .nav-response , .header,  .highlights{
         display: none;
-    }
+    } */
 
 
     
@@ -286,9 +317,9 @@ tablet devices
     .player, .blog  {
         flex-direction: column;
     }
-    .nav-response , .header, .highlights{
+    /* .nav-response , .header, .highlights{
         display: none;
-    }
+    } */
 }
     
 
