@@ -249,16 +249,20 @@ footer {
 Mobile devices 
 -----------------*/
 @media only screen and (max-width:688px){
+    
 
     .container{
         width: 100%;
     }
-     .blogs, .courses {
+     .blogs, .courses , .players{
         grid-template-columns: repeat(1, 1fr);
     }
 
     .player, .blog {
         flex-direction: column;
+    }
+    .nav-response , .header,  .highlights{
+        display: none;
     }
 
 
@@ -268,15 +272,26 @@ Mobile devices
 tablet devices 
 --------------*/
 @media screen and (min-width: 688px) and (max-width:992px)  { 
+    
     .container{
         width: 100%;
     }
+    
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .courses {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .blogs  {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog  {
+        flex-direction: column;
+    }
+    .nav-response , .header, .highlights{
+        display: none;
     }
 }
     
