@@ -264,21 +264,57 @@ Mobile devices
     justify-content: flex-start;
     align-items: center;
 }
-
- .highlights{
-    display: flex;
-    flex-direction: column;
-    padding-left: none;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
+.header-tiltle{
+    margin-top: 0%;
+    padding-top: 80px;
+    font-size: 50px;
+    color: white;
+    padding-left: 0px;
+   font-weight: bold;
+}
+.button-link{
+    
+    padding-right: 24px;
+   
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
+ .highlights{
+     
+    
+    flex-direction: column;
+    padding-left: 0;
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.highlights{
+    display: flex;
+    padding-left: 0;
+}
+.font-h{
+    padding-right: 0px;
+    font-size: 20px;
+    align-items: center;
+}
+.font-p{
+    font-size: 8px;
+    color: #6C6C6C;
+    align-items: center;
+}
+.highlights-img img{
+padding: 10px;
+padding-left: 0px;
+    width: 70%;
+    align-items: center;
+}
     
     .banner-header img {
-        width: 556.01px;
+        width: 100%;
      
     }
      .blogs, .courses , .players{
