@@ -253,6 +253,9 @@ Mobile devices
     .container{
         width: 75%;
     }
+    /* --------------
+header styles
+-------------- */
     .header{
         display: flex;
         flex-direction: column;
@@ -263,6 +266,10 @@ Mobile devices
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+}
+.banner-header img {
+    width: 100%;
+ 
 }
 .header-tiltle{
     margin-top: 0%;
@@ -279,8 +286,15 @@ Mobile devices
     margin-left: 0;
     margin-right: 0;
 }
-
-
+/* ------
+players 
+--------*/
+.players{
+    width: 125%
+}
+/* ---------
+    highlights
+    -------------*/
  .highlights{
      
     
@@ -313,10 +327,10 @@ padding-left: 0px;
     align-items: center;
 }
     
-    .banner-header img {
-        width: 100%;
-     
-    }
+    
+    /*-------
+ common area
+ ----------*/
      .blogs, .courses , .players{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -339,24 +353,78 @@ tablet devices
     .container{
         width: 75%;
     }
+    /* --------------
+header styles
+-------------- */
+    .header{
+        
+        display: flex;
+      flex-direction: column;
+          align-items: center;
+      padding-right: 0px; 
+            
+            
+    }
+    .header-tiltle{
+        margin-top: 0%;
+    padding-top: 80px;
+    font-size: 50px;
+    color: white;
+    padding-left: 0px;
+   font-weight: bold;
+    }
+/* ------
+    players 
+ --------*/
     
-    .players{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .courses {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .blogs  {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .player, .blog  {
-        flex-direction: column;
-    }
-    /* .nav-response , .header, .highlights{
-        display: none;
-    } */
+.players{
+    width: 125%;
+    
+    grid-template-columns: repeat(2, 1fr);
 }
+    /* ---------
+    highlights
+    -------------*/
+    .highlights{
+     
     
-
-
+        flex-direction: column;
+        padding: 2px;
+        margin: 0px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .highlights{
+        display: flex;
+        padding-left: 0;
+    }
+    .font-h{
+        padding-right: 0px;
+        font-size: 30px;
+        align-items: center;
+    }
+    .font-p{
+        font-size: 20px;
+        color: #6C6C6C;
+        align-items: center;
+    }
+    .highlights-img img{
+        padding: 10px;
+        padding-left: 0px;
+            width: 100%;
+            align-items: center;
+        }
+/*-------
+ common area
+ ----------*/
+.courses {
+    grid-template-columns: repeat(2, 1fr);
+}
+.blogs  {
+    grid-template-columns: repeat(2, 1fr);
+}
+.player, .blog  {
+    flex-direction: column;
+}
