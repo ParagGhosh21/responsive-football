@@ -4,15 +4,11 @@
 
 /* common styles or utilities */
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
     
 }
-/* main{
-    display: flex;
-    flex-direction: column;
-     justify-content: center; 
-    align-items: center;
-} */
+ 
 
 .container{
     
@@ -252,7 +248,7 @@ Mobile devices
     
 
     .container{
-        width: 100%;
+        width: 75%;
     }
      .blogs, .courses , .players{
         grid-template-columns: repeat(1, 1fr);
@@ -274,7 +270,7 @@ tablet devices
 @media screen and (min-width: 688px) and (max-width:992px)  { 
     
     .container{
-        width: 100%;
+        width: 75%;
     }
     
     .players{
